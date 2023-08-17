@@ -1,0 +1,10 @@
+server:
+  port: 10086 #端口
+spring:
+  application:
+    name: eurekaservice #名称
+eureka:
+  client:
+    service-url: #eureka地址信息,把自己组成到服务,可以多个用逗号区分.
+      defaultZone: http://localhost:10086/eureka
+
